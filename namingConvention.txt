@@ -1,0 +1,19 @@
+{creature}_{action}_{angle}_{variant}_{frame}.png
+
+Examples:
+spider_demon_idle_front_normal_01.png
+spider_demon_walk_angle315_normal_01.png  
+spider_demon_attack_front_normal_01.png
+spider_demon_death_left_bloody_01.png
+
+Progress Tracking:
+- The app now shows real-time progress for each sprite sheet
+- Progress = (Labeled sprites + Empty cells) / Total grid cells
+- Green = 100% complete, Blue = 50%+ complete
+- Export warnings if sheet is incomplete
+
+Labeling Tips:
+- Mark empty cells to improve progress tracking
+- Use batch operations to speed up repetitive tasks
+- Save frequently to preserve progress
+- Check progress bar before exporting
